@@ -25,3 +25,13 @@ Configuration Information-
 ![image](https://github.com/778569/Managing-App-Secrets-in-.NET-Core/assets/52319671/8377c3a5-bf4d-470c-9db1-d918c68fb9ca) <br><br>
 
 # Managing Application Secrets in Azure- 
+All code and Explonation inclued in the document
+
+![image](https://github.com/778569/Managing-App-Secrets-in-.NET-Core/assets/52319671/2201f8db-e6e5-4f1f-9887-e4b8b4ab1f50) <br><br>
+
+![image](https://github.com/778569/Managing-App-Secrets-in-.NET-Core/assets/52319671/84b4d917-9dca-48ef-b049-3e84854f4747) <br><br>
+
+![image](https://github.com/778569/Managing-App-Secrets-in-.NET-Core/assets/52319671/d1f37d5e-2d3d-4a96-be09-b3b37c7ec687)
+
+
+
