@@ -1,3 +1,4 @@
+using Managing_App_Secrets_in_.NET_Core.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Managing_App_Secrets_in_.NET_Core.Controllers
@@ -16,8 +17,12 @@ namespace Managing_App_Secrets_in_.NET_Core.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            var connectionString = Configuration["ConnectionString"];
-            return Ok(connectionString);
+            //var connectionString = Configuration["ConnectionString"];
+            //return Ok($"ConnectionString = { connectionString}");
+
+
+            var facebook = Configuration.GetSection("Facebook").Get<Facebook>();
+            return Ok($"Facebook Secret = {facebook?.AppSecret}, Facebook AppId = {facebook?.AppId}");
         }
     }
 }
